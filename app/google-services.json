@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "414234104014",
+    "firebase_url": "https://sultan-ride.firebaseio.com",
+    "project_id": "sultan-ride",
+    "storage_bucket": "sultan-ride.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414234104014:android:2ded9a222e52fcc959c09f",
+        "android_client_info": {
+          "package_name": "com.example.sultanride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414234104014-mk96rci89veg26q9u1040oit63jh0bkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3vx8cmhMXWqWTFR43kWAbqhRT1jN7m5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414234104014-mk96rci89veg26q9u1040oit63jh0bkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

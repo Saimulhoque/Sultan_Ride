@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/homegridcard">
+    <LinearLayout
+        style="@style/verticallayout"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/vehicleicon"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bike"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/Vehiclename"
+            style="@style/mediumtext"
+            android:text="Bike"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

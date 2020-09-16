@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverProfile">
+
+    <LinearLayout
+        style="@style/verticallayout"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            style="@style/verticallayout">
+            <androidx.cardview.widget.CardView
+                style="@style/profilepicture"
+                android:layout_marginTop="30dp">
+                <ImageView
+                    style="@style/profilepicture"
+                    android:src="@drawable/nameicon" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                style="@style/smalltext"
+                android:textAlignment="center"
+                android:text="Your Driver"/>
+            <TextView
+                style="@style/largetext"
+                android:textAlignment="center"
+                android:text="Abid Ahmed"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="20dp"
+                android:background="#D8D8D8"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/horizontallayout"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="60dp">
+                <TextView
+                    style="@style/smalltext"
+                    android:text="Time" />
+
+                <TextView
+                    style="@style/mediumtext"
+                    android:text="15 Min"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="60dp">
+                <TextView
+                    style="@style/smalltext"
+                    android:text="Price" />
+
+                <TextView
+                    style="@style/mediumtext"
+                    android:text="BDT 190"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/smalltext"
+                    android:text="Distance" />
+
+                <TextView
+                    style="@style/mediumtext"
+                    android:text="15 Km"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="45dp"
+            android:background="#D8D8D8"/>
+        <TextView
+            style="@style/smalltext"
+            android:text="Saimul,"
+            android:textAlignment="center"/>
+        <TextView
+            style="@style/largetext"
+            android:text="How is your Trip?"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            style="@style/horizontallayout"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                style="@style/iconsize"
+                android:src="@drawable/star"
+                android:layout_margin="5dp"/>
+            <ImageView
+                style="@style/iconsize"
+                android:src="@drawable/star"
+                android:layout_margin="5dp"/>
+            <ImageView
+                style="@style/iconsize"
+                android:src="@drawable/star"
+                android:layout_margin="5dp"/>
+            <ImageView
+                style="@style/iconsize"
+                android:src="@drawable/star"
+                android:layout_margin="5dp"/>
+            <ImageView
+                style="@style/iconsize"
+                android:src="@drawable/star"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional Comment"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+           style="@style/button"
+            android:text="@string/submit"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
